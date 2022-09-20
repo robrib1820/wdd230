@@ -33,7 +33,7 @@ header img {
 #header1{
     text-align: center;
 }
-.grid {
+.grid, .grid1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1 fr;
     border-radius: 10px;
@@ -44,4 +44,7 @@ header img {
     margin: auto;
     border-radius: 10px;
     margin-bottom: 10px;
+}
+.grid1 {
+    margin-top: 10px;
 }
