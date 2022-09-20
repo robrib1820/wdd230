@@ -1,0 +1,47 @@
+body {
+    background: rgb(124, 124, 188);
+    font: normal 15pt Arial;
+}
+
+img {
+    width: 100px;
+}
+
+main {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 700px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0 0.288);
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+
+main p {
+    text-align: center;
+}
+header img {
+    float: left;
+    border-radius: 10px;
+}
+#header1{
+    text-align: center;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1 fr;
+    border-radius: 10px;
+    color: white;
+    align-items: bottom;
+    width: 700px;
+    background: rgb(75, 206, 75);
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
