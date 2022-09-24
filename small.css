@@ -1,5 +1,6 @@
+@charset "utf-8";
 body {
-    background: rgb(124, 124, 188);
+    background: rgb(78, 78, 95);
     font: normal 15pt Arial;
 }
 
@@ -37,10 +38,10 @@ header img {
     display: grid;
     grid-template-columns: 1fr 1fr 1 fr;
     border-radius: 10px;
-    color: white;
+    color: black;
     align-items: bottom;
     width: 700px;
-    background: rgb(75, 206, 75);
+    background: rgb(139, 255, 247);
     margin: auto;
     border-radius: 10px;
     margin-bottom: 10px;
