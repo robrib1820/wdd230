@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+    padding: 15px;
+}
+.sections {
+    background-color: #FC9E4F;
+    border-radius: 10px;
+}
+body {
+    background-color: #FF521B;
+}
+main {
+    width: 900px;
+    text-align: center;
+    margin: auto;
+    color: #020122;
+    font-family: "Merriweather", serif;
+}
+footer, nav, .title_designs {
+    background-color: #020122;
+    color: #EDD382;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 5px 5px 10px #F2F3AE;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+footer {
+    font-size: 20px;
+}
+img {
+    width: 90%;
+}
+a {
+    color: #020122;
+}
+.title_designs{
+    font-size:16px;
+    
+}
+h1 {
+    font-size: 60px;
+}
+
+/*Media Querie for tablet*/
+/* Large*/
+@media screen and (min-width:761px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 1em;
+        padding: 15px;
+    }
+    
+
+}
+/*Medium*/
+@media screen and (min-width: 480px) and (max-width: 945px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1em;
+        width: 90%;
+        grid-column: 1 / 2;
+    }
+    #imgspan{
+        grid-column: 1 / 2;
+    }
+}
+
+/*Small*/
+@media screen and (max-width: 480px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    img, main {
+        width: 80%;
+    }
+}
