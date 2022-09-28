@@ -69,8 +69,8 @@ h1 {
         width: 90%;
         grid-column: 1 / 2;
     }
-    #imgspan{
-        grid-column: 1 / 2;
+    section:nth-child(3) {
+        grid-column: span 2;
     }
 }
 
