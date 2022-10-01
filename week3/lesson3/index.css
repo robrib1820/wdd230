@@ -19,7 +19,7 @@ nav a:hover {
     background-color: #70566D ;
     color: #42273B;
 }
-header, footer, nav a {
+header, footer, nav a, h1, h2, h3, h4 {
     font-family: 'Lato', sans-serif ;
 }
 body {
@@ -58,6 +58,9 @@ h3 {
     font-size: 25px;
     text-align: center;
 }
+p, ul, li {
+    font-family: 'Roboto', sans-serif;
+}
 .logo1 {
     margin-bottom: 30px;
 }
@@ -67,18 +70,53 @@ h3 {
     padding: 20px;
     margin-top: -10px;
 }
-#photo, p {
+h4, .p, p, #photo {
     text-align: center;
-}
-p {
     font-size: 25px;
-}
-h4 {
-    text-align: center;
 }
 .demographics {
     text-align: center;
     list-style-type: none ;
     margin-right: 45px;
+    font-size: 25px;
+}
+#logo_photo, #photo_palette {
+    text-align: center;
+    margin-bottom: 15px;
+}
+#margin_footer {
+    margin-top: 15px;
+}
+/*Second page GRID */
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+#audience {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2 ;
+}
+#personas {
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+}
+#grid1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
 }
 
+#grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+img {
+    border-radius: 10px;
+}
+#scenarios {
+    font-size: 25px;
+}
+#palette {
+    background-color: white;
+}
