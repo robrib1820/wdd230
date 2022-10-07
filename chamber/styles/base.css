@@ -4,15 +4,109 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 /*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-body {
-    background-color: green;
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #42273B;
+    color: #FFE3C2;
+}
+#date {
+    border: 1px solid #bbb;
+    padding: 0.75rem;
+    background-color: #eee;
+    text-align: center;
+    background-color: #F76F8E;
+}
+.social img {
+    width: 25%;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.heading {
+    display: block;
+    font-size: 55%;
+}
+header img {
+    
+    border-radius: 25px;
+    width: 100px;
+    height: auto;
+}
+#primaryNav {
+    list-style: none;
+    gap: 25px;
+    padding: 0;
+    margin: 0;
+}
+#nav {
+    display: flex;
+    flex-direction:row-reverse;
 }
 
+#hamburgerBtn {
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+}
 
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    border-top: 1px solid rgba(0,0,0,0.5);
+    color: #FFE3C2;
+}
+nav ul li a:hover {
+    background-color: rgba(0,0,0,0.3);
+}
 
+nav ul {
+    display: none;
+}
+nav ul.open {
+    display: block;
+}
 
+/*Footer code*/
+footer {
+    text-align: center;
+    background-color: #42273B;
+    color: #FFE3C2;
+    margin-top: 10px;
+}
+footer p {
+    border-top: 1px solid rgba(0,0,0,0.5);
+}
+footer img {
+    border-radius: 25px;
+    width: 25%;
+    margin-top: 10px;
+}
+#hero, #event, #weather, #join, #news, #spotlight, #spotlight1, #spotlight2{
+    background-color: #FFE3C2;
+    height: 200px;
+}
+#spotlight, #spotlight1, #spotlight2 {
+    background-color: #FFE3C2;
+    height: 180px;
+    border: 1px solid rgba(0,0,0,0.5);
+    margin: 20px;
+    padding: 0.75rem;
+}
+#join, #spotlight2 {
+    display: none;
+}
+section {
+    background-color: #FFE3C2 ;
+}
 
+#hamburgerBtn span:nth-child(1) {display: block;}
+#hamburgerBtn span:nth-child(2) {display: none;}
 
-
-
-
+#hamburgerBtn.open span:nth-child(1) {display: none;}
+#hamburgerBtn.open span:nth-child(2) {display: block;} 
