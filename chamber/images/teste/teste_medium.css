@@ -1,0 +1,89 @@
+@media only screen and (min-width: 45rem) {
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-between;
+        
+    }
+    nav ul, #nav {
+        display: flex;
+        flex-direction:row-reverse;
+    }
+    nav ul#primaryNav {
+        margin-left: 2vw;
+    }
+    nav ul li a {
+        border: none;
+    }
+    nav ul {
+        display: none;
+    }
+    nav ul.open {
+        display: block;
+    }
+
+    /*grid for medium view*/
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        padding: 5px;
+    }
+    #hero {
+        grid-column: 1 / 3 ;
+        grid-row: 1 / 2 ;
+    }
+    #event {
+        grid-column: 1 / 2.5 ;
+        grid-row: 5 / 6 ;
+        width: 600px;
+    }
+    #weather {
+        grid-column: 2.5 / 3 ;
+        grid-row: 5 / 6 ;
+    }
+    #news {
+        grid-column: 1 / 3 ;
+        grid-row: 2 / 3 ;
+    }
+    section {
+        grid-column: 1 / 3 ;
+        grid-row: 3 / 4 ;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #join {
+        display: block;
+        grid-column: 1 / 3 ;
+        grid-row: 4 / 5 ;
+    }
+
+    /*footer for medium view*/
+    footer {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    footer img{
+        width: 130px;
+        margin-left: 25px;
+    }
+    footer p {
+        grid-column: 1 / 4 ;
+        text-align: center;
+    }
+    #separeted-div {
+        grid-column: 2 / 3 ;
+        margin-top: -35px;
+    }
+    #footer-flex {
+        display: flex;
+        grid-column: 1 / 4;
+        align-items: center;
+        gap: 25px;
+    }
+    #info {
+        margin-left: 180px;
+    }
+}
