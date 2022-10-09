@@ -4,7 +4,9 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 /*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 body {
-    max-width: 1500x;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #FFB35C;
 }
 main {
     color: #42273B;
@@ -12,7 +14,6 @@ main {
 header {
     display: flex;
     align-items: center;
-    justify-content: center;
     background-color: #42273B;
     color: #FFE3C2;
 }
@@ -86,10 +87,11 @@ footer {
 }
 footer p {
     border-top: 1px solid rgba(0,0,0,0.5);
+    padding: 1.5rem;
 }
 footer img {
     border-radius: 25px;
-    width: 25%;
+    width: 130px;
     margin-top: 10px;
 }
 #hero, #event, #weather, #join, #news, #spotlight, #spotlight1, #spotlight2{

@@ -60,4 +60,30 @@
         grid-row: 4 / 5 ;
     }
 
+    /*footer for medium view*/
+    footer {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    footer img{
+        width: 130px;
+        margin-left: 25px;
+    }
+    footer p {
+        grid-column: 1 / 4 ;
+        text-align: center;
+    }
+    #separeted-div {
+        grid-column: 2 / 3 ;
+        margin-top: -35px;
+    }
+    #footer-flex {
+        display: flex;
+        grid-column: 1 / 4;
+        align-items: center;
+        gap: 25px;
+    }
+    #info {
+        margin-left: 180px;
+    }
 }
