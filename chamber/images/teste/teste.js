@@ -1,9 +1,9 @@
 function toggleMenu() {
-    document.getElementById("primaryNav").classList.toggle("open");
-    document.getElementById("hamburgerBtn").classList.toggle("open");
+    document.getElementById("nav").classList.toggle("active");
+    document.getElementById("btn-mobile").classList.toggle("active");
 }
 
-const x = document.getElementById("hamburgerBtn")
+const x = document.getElementById("btn-mobile")
 x.onclick = toggleMenu;
 
 //date 

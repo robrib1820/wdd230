@@ -11,6 +11,19 @@
         display: none;
     }
 
+    #headings {
+        font-size: 28px;
+        text-align: center;
+        color: #FFB35C;
+        margin-left: -100px;
+    }
+    #headings1 {
+        font-size: 20px;
+        text-align: center;
+        color: #FFB35C;
+        margin-left: -100px;
+    }
+
     /*Grid for large view*/
     main {
         display: grid;
