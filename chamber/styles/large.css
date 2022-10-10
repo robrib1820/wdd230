@@ -18,13 +18,16 @@
         font-size: 28px;
         text-align: center;
         color: #FFE3C2;
-        margin-left: -100px;
+        margin-left: -10px;
     }
     #headings1 {
         font-size: 20px;
         text-align: center;
         color: #FFE3C2;
-        margin-left: -100px;
+        margin-left: -10px;
+    }
+    .social {
+        margin-left: 200px;
     }
 
     /*Grid for large view*/

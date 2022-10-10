@@ -10,13 +10,13 @@
         font-size: 28px;
         text-align: center;
         color: #FFE3C2;
-        margin-left: -100px;
+        margin-left: 5px;
     }
     #headings1 {
         font-size: 20px;
         text-align: center;
         color: #FFE3C2;
-        margin-left: -100px;
+        margin-left: 5px;
     }
     nav ul, #nav {
         display: flex;
@@ -35,7 +35,7 @@
         display: block;
     }
     .social {
-        margin-right: -200px;
+        margin-right: -400px;
     }
 
     /*grid for medium view*/

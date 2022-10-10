@@ -23,7 +23,10 @@ main {
     font-family: 'Lato', sans-serif;
 }
 .social img {
-    width: 25%;
+    width: 10%;
+}
+.social {
+    margin-left:  100px;
 }
 /*header img {
     
@@ -87,10 +90,6 @@ a:hover {
     background: rgba(31, 30, 30, 0.5);
 }
 
-.logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
 header img {
     width: 15%;
     border-radius: 25px;
@@ -134,6 +133,7 @@ header img {
     font-size: 2rem;*/
 }
 
+
 @media (max-width: 1023px) {
     #btn-mobile {
         display: block;
@@ -167,12 +167,12 @@ header img {
         font-size: 19px;
         text-align: center;
         color: #FFE3C2;
-        margin-left: -40px;
+        margin-left: -4px;
     }
     #headings1 {
         font-size: 13px;
         text-align: center;
         color: #FFE3C2;
-        margin-left: -15px;
+        margin-left: -4px;
     }
 }
