@@ -1,0 +1,9 @@
+body.append/appendChield - Tem diferença - append pode colocar strings diretamente, appendChield NÃO!
+
+appendChield - CONSEGUE append "nodes" como divs, classes etc..
+
+#To create elements - JUST TO CREATE: document.createElemnt("div") - a div in this case!
+
+#To add the created element to the page - NEEDS TO BE ADDED: body.append(div)
+
+difference between innerText and textContent: 
