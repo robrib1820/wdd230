@@ -7,3 +7,28 @@ appendChield - CONSEGUE append "nodes" como divs, classes etc..
 #To add the created element to the page - NEEDS TO BE ADDED: body.append(div)
 
 difference between innerText and textContent: 
+innerText gives result as it is visual on the page
+textContent gives the original result and all elements, like the space inside etc...
+
+
+#To add html from a string into an element to show in the page
+
+use the inner.HTML = ex: div.innerHTML = "<strong>Hello World 2</strong>"
+
+#To remove an element
+
+variable.remove()
+
+#to add
+
+variable.append()
+
+#Modify atributes in an element
+
+element.getAttribute("id") or element.id(goes inside the id of the element)
+element.setAttribute(("id", "sdfsdfsd"))
+element.removeAttribute("id")
+
+classList
+Toggle
+Style

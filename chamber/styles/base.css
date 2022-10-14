@@ -9,6 +9,27 @@ body {
     margin: 0 auto;
     background-color: #FFB35C;
 }
+main img {
+    width: 100%;
+}
+#weather img {
+    width: 25%;
+}
+#spotlight1 img {
+    width: 25%;
+}
+#spotlight img {
+    width: 100%;
+}
+#spotlight1 {
+    background-color: red;
+}
+#spotlight {
+    background-color: rgb(93, 36, 199);
+}
+main p, h3 {
+    text-align: center;
+}
 main {
     color: #42273B;
     font-family: 'Roboto', sans-serif;;
@@ -55,12 +76,10 @@ footer img {
 }
 #hero, #event, #weather, #join, #news, #spotlight, #spotlight1, #spotlight2{
     background-color: #FFE3C2;
-    height: 200px;
-}
+} 
 #spotlight, #spotlight1, #spotlight2 {
     background-color: #FFE3C2;
     height: 180px;
-    border: 1px solid rgba(0,0,0,0.5);
     margin: 20px;
     padding: 0.75rem;
 }
@@ -87,7 +106,8 @@ a {
     color: #70566D;
 }
 a:hover {
-    background: rgba(31, 30, 30, 0.5);
+    background: #7586d188;
+
 }
 
 header img {
@@ -132,6 +152,8 @@ header img {
     border: none;
     font-size: 2rem;*/
 }
+
+
 
 
 @media (max-width: 1023px) {
