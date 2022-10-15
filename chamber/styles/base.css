@@ -12,20 +12,23 @@ body {
 main img {
     width: 100%;
 }
-#weather img {
+.weather img {
+    width: 40%;
+}
+.spotlight1 img {
     width: 25%;
+    border-radius: 360px;
 }
-#spotlight1 img {
-    width: 25%;
+.spotlight img {
+    width: 40%;
+    border-radius: 10px 10px;
 }
-#spotlight img {
-    width: 100%;
+#come_to_know {
+    font-weight: 500;
+    font-size: 30px;
 }
-#spotlight1 {
-    background-color: red;
-}
-#spotlight {
-    background-color: rgb(93, 36, 199);
+.spotlight, .spotlight1 {
+    text-align: center;
 }
 main p, h3 {
     text-align: center;
@@ -74,16 +77,22 @@ footer img {
     width: 130px;
     margin-top: 10px;
 }
-#hero, #event, #weather, #join, #news, #spotlight, #spotlight1, #spotlight2{
+.hero, .event, .weather, .join, .news, .spotlight, .spotlight1, .spotlight2{
     background-color: #FFE3C2;
+    color: #70566D;
+    height: auto;
 } 
-#spotlight, #spotlight1, #spotlight2 {
+.spotlight, .spotlight1, .spotlight2 {
     background-color: #FFE3C2;
-    height: 180px;
     margin: 20px;
     padding: 0.75rem;
+    border: 2px solid #7586D1;
 }
-#join, #spotlight2 {
+#spotlight1.1{
+    border: 2px solid #7586D1;
+    
+}
+.join, .spotlight2 {
     display: none;
 }
 section {
@@ -152,6 +161,63 @@ header img {
     border: none;
     font-size: 2rem;*/
 }
+
+/*Styling*/
+
+.hero {
+    position: relative;
+    color: #42273B;
+}
+#hero img {
+    width: 100%;
+}
+#position_hero {
+    position: absolute;
+    top: 10px;
+    text-shadow: .25rem .25rem .75rem #FFE3C2;
+}
+#position_hero1 {
+    position: absolute;
+    text-shadow: .25rem .25rem .75rem #F76F8E;
+    bottom: 5px;
+    right: 5px;
+    background-color: #42273B;
+    color: #FFE3C2;
+    border-radius: 20px;
+    padding: 15px;
+    text-shadow: .25rem .25rem .75rem #FFE3C2;
+}
+.event img {
+    width: auto;
+}
+.matsuri {
+    color: #F76F8E;
+}
+#festival {
+    color: #70566D;
+}
+
+.weather {
+    position: relative;
+}
+#data_weather {
+    position: absolute;
+    font-size: 35px;
+    top: 55px;
+}
+#cloudy {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 600;
+    top: 100px;
+}
+#wind_speed {
+    position: absolute;
+    top: 130px;
+}
+
+
+
 
 
 
