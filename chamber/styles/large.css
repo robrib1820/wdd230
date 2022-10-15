@@ -37,24 +37,24 @@
         grid-gap: 10px;
         padding: 5px;
     }
-    #hero {
+    .hero {
         grid-column: 2 / 4 ;
         grid-row: 1 / 3 ;
         background-color: #3c30a8;
         height: 510px;
         object-fit: contain;
     }
-    #event {
+    .event {
         grid-column: 1 / 2 ;
         grid-row: 1 / 2 ;
         height: 250px;
     }
-    #weather {
+    .weather {
         grid-column: 1 / 2 ;
         grid-row: 2 / 3 ;
         height: 250px;
     }
-    #news {
+    .news {
         grid-column: 2 / 4 ;
         grid-row: 3 / 4 ;
         height: 250px;
@@ -65,20 +65,20 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
-    #join {
+    .join {
         display: block;
         grid-column: 1 / 2 ;
         grid-row: 3 / 4 ;
         height: 250px;
     }
-    #spotlight2 {
+    .spotlight2 {
         display: block;
         grid-column: 1 / 4 ;
     }
-    #spotlight1 {
+    .spotlight1 {
         grid-column: 1 / 4 ;
     }
-    #spotlight {
+    .spotlight {
         grid-column: 1 / 4 ;
     }
 

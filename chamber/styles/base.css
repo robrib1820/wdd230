@@ -80,17 +80,12 @@ footer img {
 .hero, .event, .weather, .join, .news, .spotlight, .spotlight1, .spotlight2{
     background-color: #FFE3C2;
     color: #70566D;
-    height: auto;
 } 
 .spotlight, .spotlight1, .spotlight2 {
     background-color: #FFE3C2;
-    margin: 20px;
+    margin: 5px;
     padding: 0.75rem;
     border: 2px solid #7586D1;
-}
-#spotlight1.1{
-    border: 2px solid #7586D1;
-    
 }
 .join, .spotlight2 {
     display: none;
@@ -175,6 +170,9 @@ header img {
     position: absolute;
     top: 10px;
     text-shadow: .25rem .25rem .75rem #FFE3C2;
+    font-size:large;
+    margin: 15px;
+    
 }
 #position_hero1 {
     position: absolute;
@@ -195,6 +193,9 @@ header img {
 }
 #festival {
     color: #70566D;
+}
+.news {
+    padding: 35px;
 }
 
 .weather {
