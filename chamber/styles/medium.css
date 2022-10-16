@@ -6,17 +6,8 @@
         justify-content: center;
         justify-content: space-between;
     }
-    #headings {
-        font-size: 28px;
-        text-align: center;
-        color: #FFFFFF;
-        margin-left: 5px;
-    }
-    #headings1 {
-        font-size: 20px;
-        text-align: center;
-        color: #FFFFFF;
-        margin-left: 5px;
+    header img {
+        width: 35%;
     }
     nav ul, #nav {
         display: flex;
@@ -33,9 +24,6 @@
     }
     nav ul.open {
         display: block;
-    }
-    .social {
-        margin-right: -400px;
     }
 
     /*grid for medium view*/
@@ -95,6 +83,7 @@
         grid-column: 1 / 4;
         align-items: center;
         gap: 25px;
+        justify-content: center;
     }
     #info {
         margin-left: 180px;

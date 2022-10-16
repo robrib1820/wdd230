@@ -13,21 +13,8 @@
     #hamburgerBtn {
         display: none;
     }
-
-    #headings {
-        font-size: 28px;
-        text-align: center;
-        color: #FFFFFF;
-        margin-left: -10px;
-    }
-    #headings1 {
-        font-size: 20px;
-        text-align: center;
-        color: #FFFFFF;
-        margin-left: -10px;
-    }
-    .social {
-        margin-left: 200px;
+    header img {
+        width: 20%;
     }
 
     /*Grid for large view*/
@@ -77,13 +64,17 @@
         border-radius: none;
         background-color:#978e8e;
         padding-top: 30px;
-    
+        border-radius: 0px;
+        position: relative;
     }
     .join h3 {
         background-color: #e61c1c;
         padding: 10px;
-        border-radius: 10px;
         color: #FFFFFF;
+        position: absolute;
+        bottom: 60px;
+        left: 100px;
+        border-radius: 10px;
     }
     .spotlight2 {
         display: block;

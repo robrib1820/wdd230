@@ -45,20 +45,6 @@ main {
     background-color: #002776;
     font-family: 'Lato', sans-serif;
 }
-.social img {
-    width: 10%;
-}
-.social {
-    margin-left:  100px;
-}
-/*header img {
-    
-    border-radius: 25px;
-    width: 100px;
-    height: auto;
-}
-*/
-
 /*Footer code */
 footer {
     text-align: center;
@@ -72,9 +58,7 @@ footer p {
     padding: 1.5rem;
 }
 footer img {
-    border-radius: 25px;
     width: 130px;
-    margin-top: 10px;
 }
 .hero, .event, .weather, .join, .news, .spotlight, .spotlight1, .spotlight2{
     background-color: #978e8e;
@@ -106,7 +90,7 @@ a {
     font-family: sans-serif;
     color: #FFFFFF;
 }
-a:hover {
+#menu a:hover {
     background: #FFFFFF;
     color: #002776;
     border-radius: 20px;
@@ -114,26 +98,17 @@ a:hover {
 }
 
 header img {
-    width: 15%;
-    border-radius: 25px;
+    width: 45%;
 }
 #header {
     box-sizing: border-box;
     display: flex;
     align-items: center;
     background-color: #e61c1c;
-    /*height: 70px;
-    padding: 1rem;*/
+    height: 100px;
+    padding: 1rem;
     justify-content: space-between;
     font-family: 'Lato', sans-serif;
-}
-#headings {
-    font-size: 35px;
-    text-align: center;
-}
-#headings1 {
-    font-size: 20px;
-    text-align: center;
 }
 
 #menu {
@@ -178,9 +153,8 @@ header img {
     right: 5px;
     background-color: #002776;
     color: #FFFFFF;
-    border-radius: 20px;
+    border-radius: 10px;
     padding: 15px;
-    text-shadow: .25rem .25rem .75rem #009C3B;
 }
 .event img {
     width: auto;
@@ -189,7 +163,7 @@ header img {
     color: #002776;
 }
 #festival {
-    color: #009C3B;
+    color: #006627;
 }
 .news {
     padding: 35px;
@@ -248,17 +222,5 @@ header img {
         border-bottom: 2px solid #009C3B;
         color: #FFFFFF;
         font-family: 'Lato', sans-serif;
-    }
-    #headings {
-        font-size: 19px;
-        text-align: center;
-        color: #FFFFFF;
-        margin-left: -4px;
-    }
-    #headings1 {
-        font-size: 13px;
-        text-align: center;
-        color: #FFFFFF;
-        margin-left: -4px;
     }
 }
