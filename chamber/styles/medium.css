@@ -100,4 +100,11 @@
         color: #FFFFFF;
         border-radius: 180px;
     }
+    .spotlight1 h3 {
+        top: 5px;
+    }
+    .spotlight1 p {
+        bottom: 5px;
+        left: 2%;
+    }
 }

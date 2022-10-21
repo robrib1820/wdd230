@@ -1,3 +1,4 @@
+
 /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
@@ -5,7 +6,6 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 body {
-    max-width: 1200px;
     margin: 0 auto;
     background-color: #FFFFFF;
 }
@@ -16,12 +16,18 @@ main img {
     width: 40%;
 }
 .spotlight1 img {
-    width: 25%;
-    border-radius: 360px;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 .spotlight img {
-    width: 40%;
-    border-radius: 10px 10px;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.spotlight2 img {
+    width: 100%;
+    height: 100%;
 }
 #come_to_know {
     font-weight: 500;
@@ -29,21 +35,56 @@ main img {
 }
 .spotlight, .spotlight1 {
     text-align: center;
+    position: relative;
 }
+
+/*Spotlights styles*/
+
+.spotlight p {
+    position: absolute;
+    bottom: 0px;
+    left: 18px;
+    color: #FFFFFF;
+    background-color: #00143D;
+    border-radius: 10px;
+    padding: .2rem;
+}
+.spotlight h3 {
+    position: absolute;
+    left: 100px;
+    color: #00143D;
+}
+.spotlight1 h3, .spotlight1 p {
+    margin: 0;
+    color: #00143D;
+    position: absolute;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.spotlight1 h3 {
+    top: 5px;
+    font-size:x-large;
+}
+.spotlight1 p {
+    bottom: 5px;
+    left: 35%;
+    font-size: 18px;
+}
+
 main p, h3 {
     text-align: center;
 }
 main {
     color: #FFFFFF;
-    font-family: 'Roboto', sans-serif;;
+    font-family:'Roboto', sans-serif;
+    margin: 1px 10px ;
 }
 #date {
-    border: 1.5px solid #009C3B;
+    border: 1.5px solid #00143D;
     padding: 0.75rem;
     color: #FFFFFF;
     text-align: center;
     background-color: #002776;
-    font-family: 'Lato', sans-serif;
+    font-family:'Nunito Sans', sans-serif;
 }
 /*Footer code */
 footer {
@@ -51,7 +92,8 @@ footer {
     background-color: #e61c1c;
     color: #FFFFFF;
     margin-top: 10px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    height: 400px;
 }
 footer p {
     border-top: 1px solid rgba(0,0,0,0.5);
@@ -60,16 +102,16 @@ footer p {
 footer img {
     width: 130px;
 }
+footer h5 {
+    line-height: 25px;
+}
 .hero, .event, .weather, .join, .news, .spotlight, .spotlight1, .spotlight2{
-    background-color: #978e8e;
+    background-color: #00143D;
     color: #FFFFFF;
     border: 2px solid #002776;
 } 
 .spotlight, .spotlight1, .spotlight2 {
-    background-color: #978e8e;
-    margin: 5px;
-    padding: 0.75rem;
-    box-shadow: 10px 10px 10px 10px #999;
+    background-color: #00143D;
 }
 .join, .spotlight2 {
     display: none;
@@ -99,6 +141,7 @@ a {
 
 header img {
     width: 45%;
+
 }
 #header {
     box-sizing: border-box;
@@ -108,7 +151,7 @@ header img {
     height: 100px;
     padding: 1rem;
     justify-content: space-between;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 #menu {
@@ -120,7 +163,7 @@ header img {
 #menu a {
     display: block;
     padding: .5rem;
-    font-family: 'Lato', sans-serif;
+    font-family:'Nunito Sans', sans-serif;
 }
 
 #btn-mobile {
@@ -144,14 +187,14 @@ header img {
     top: 10px;
     font-size:large;
     margin: 15px;
-    color: #FFFFFF;
+    color: #00143D;
     
 }
 #position_hero1 {
     position: absolute;
     bottom: 5px;
     right: 5px;
-    background-color: #002776;
+    background-color: #00143D;
     color: #FFFFFF;
     border-radius: 10px;
     padding: 15px;
@@ -159,11 +202,17 @@ header img {
 .event img {
     width: auto;
 }
+.event p {
+    font-size:small;
+}
+#matsuri_img {
+    text-align: center;
+}
 .matsuri {
-    color: #002776;
+    color: #FFFFFF;
 }
 #festival {
-    color: #006627;
+    color: #e61c1c;
 }
 .news {
     padding: 35px;
@@ -187,9 +236,18 @@ header img {
     position: absolute;
     top: 130px;
 }
-
-
-
+#wind_chill {
+    position: absolute;
+    bottom: 10px;
+}
+footer h5 img {
+    width: 3%;
+}
+/*Weather
+.weather div {
+    border-top: 2px solid rgb(194, 17, 17);
+}
+*/
 
 
 
@@ -219,8 +277,8 @@ header img {
     #menu a {
         padding: 1rem 0;
         margin: 0 1rem;
-        border-bottom: 2px solid #009C3B;
+        border-bottom: 2px solid #00143D;
         color: #FFFFFF;
-        font-family: 'Lato', sans-serif;
+        font-family: 'Nunito Sans', sans-serif;
     }
 }

@@ -9,6 +9,15 @@
         <!-- STYLE SHEETS -->
     <!--<link rel="stylesheet" href="large.css">
     <link rel="stylesheet" href="medium.css">-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Nunito+Sans:ital,wght@1,200&family=Roboto:wght@300&display=swap" rel="stylesheet">
 
     <title>Home Page</title>
     <!-- STYLE SHEETS -->
@@ -40,7 +49,12 @@
     </div>
     <main>
         <div class="hero">
-            <img src="images/city.jpg" alt="City Photo">
+            <picture>
+                <source media="(max-width: 260px" srcset="images/wdd230.200.jpg">
+                <source media="(max-width: 500px" srcset="images/wdd230.500.jpg"> 
+                <source media="(max-width: 800px" srcset="images/wdd230.800.jpg"> 
+                <img src="images/wdd230.800.jpg" alt="City Photo">
+            </picture>
 
             <h3 id="position_hero">Welcome to Londrina</h3>
             <h3 id="position_hero1">
@@ -50,16 +64,24 @@
         </div>
         <div class="event">
             <h3 class="matsuri">18th Londrina Matsuri </h3>
-            <h3 id="festival"> <img src="images/ramen.png" alt="Japanese Icon">Spring Festival</h3>
+            <div id="matsuri_img">
+                <span>&#127843;</span>
+            </div>
+            <h3 id="festival">Spring Festival</h3>
             <p>Spring Festival with lots of oriental culture, gastronomy, free workshops and spring space</p>
             <p class="matsuri">more info...</p>
         </div>
         <div class="weather">
             <h3>Weather</h3>
             <img src="images/weather.png" alt="Wether Image">
-            <span id="data_weather">29ºC</span>
+
+            <p><span id="data_weather"></span>º</p>
+
             <span id="cloudy">Partly Cloudy</span>
-            <span id="wind_speed">Wind Speed: 2.5 km/h</span>
+            <div>
+                <p>Wind Speed: <span class="wind_speed"></span></p>
+                <p>Wind Chill: <span class="wind_chill"></span></p>
+            </div>
         </div>
         <div class="news">
             <h3>
@@ -86,9 +108,8 @@
                 <h3>
                     Restaurant
                 </h3>
-                <img src="images/restaurant.png" alt="Japonese Restaurant">
-                <p>Your food faster <br>
-                    japonesefood.com <br>
+                <img src="images/sushi.jpg" alt="Japonese Restaurant">
+                <p>Your food faster - japonesefood.com <br>
                     43 3438-2368
                 </p>
             </div>
@@ -97,15 +118,11 @@
                     ExpoJapão
                 </h3>
                 <p>Shows, dances, arts, food and fun for the whole family</p>
-                <img src="images/woman_japanese.jpg" alt="Japanese Woman">
-                <img src="images/japanese_food.jpg" alt="Japanese Food">
-                <img src="images/decoration.jpg" alt="Japanese Decoration">
-                <p id="come_to_know">Come to know</p>
+                <img src="images/japan_band.jpg" alt="Japanese Woman">
+                
             </div>
             <div class="spotlight2">
-                <h3>
-                    spotlight3
-                </h3>
+                <img src="images/blog.jpg" alt="Japonese Restaurant">
             </div>
         </section>
 
@@ -114,11 +131,12 @@
     <footer>
         <div id="footer-flex">
             <img src="images/logo.png" alt="Logo Page Photo">
-            <h5>Rua 10 de Dezembro, n° 341 - Gleba Fazenda Palhano - Londrina PR</h5>
+            <h5> <span>&#11088;</span> Rua 10 de Dezembro, n° 341 - Gleba Fazenda Palhano - Londrina PR</h5>
             <h5>info@brazil-japan.org <br>+(55)43 2070-2300</h5>
         </div>
         <p>&copy; 2022 Brazil-Japan Chamber | Robson Ribeiro | WDD 230 Project |Last Modification 11/22/2021 06:20:28</p>
     </footer>
     <script src="scripts/scripts.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>
