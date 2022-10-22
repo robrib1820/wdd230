@@ -49,11 +49,6 @@ main img {
     border-radius: 10px;
     padding: .2rem;
 }
-.spotlight h3 {
-    position: absolute;
-    left: 100px;
-    color: #00143D;
-}
 .spotlight1 h3, .spotlight1 p {
     margin: 0;
     color: #00143D;
@@ -100,7 +95,7 @@ footer p {
     padding: 1.5rem;
 }
 footer img {
-    width: 130px;
+    width: 100%;
 }
 footer h5 {
     line-height: 25px;
@@ -243,6 +238,13 @@ header img {
 }
 footer h5 img {
     width: 3%;
+}
+.spotlight div{
+    position: absolute;
+    top: 0;
+    text-align: center;
+    width: 100%;
+    color: #00143D;
 }
 
 
