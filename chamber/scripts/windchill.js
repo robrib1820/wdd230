@@ -1,5 +1,5 @@
-const tC = 10   ;
-const skmH = 5;
+const tC = 5   ;
+const skmH = 10;
 
 document.querySelector('#data_weather').textContent = tC;
 document.querySelector('#wind_speed').textContent = skmH;
