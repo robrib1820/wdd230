@@ -94,8 +94,8 @@ footer p {
     border-top: 1px solid rgba(0,0,0,0.5);
     padding: 1.5rem;
 }
-footer img {
-    width: 100%;
+footer div img {
+    width: 20%;
 }
 footer h5 {
     line-height: 25px;
@@ -136,7 +136,6 @@ a {
 
 header img {
     width: 45%;
-
 }
 #header {
     box-sizing: border-box;

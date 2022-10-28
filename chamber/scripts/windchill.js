@@ -11,9 +11,8 @@ console.log(tempF);
 console.log(smH);
 
 if (tempF <= 50 && smH > 3) {
-const fah = 35.74 + 0.6215 * tempF - 35.75 * (smH**0.16) + 0.4275 * tempF * (smH**0.16)
-document.querySelector('#wind_chill').textContent = fah.toFixed(1);
-}
-else {
-  document.querySelector('#wind_chill').textContent = 'N/A';
+    const fah = 35.74 + 0.6215 * tempF - 35.75 * (smH**0.16) + 0.4275 * tempF * (smH**0.16)
+    document.querySelector('#wind_chill').textContent = fah.toFixed(1);
+} else {
+    document.querySelector('#wind_chill').textContent = 'N/A';
 }
