@@ -73,7 +73,7 @@ main {
     font-family:'Roboto', sans-serif;
     margin: 1px 10px ;
 }
-#date {
+#date, #storage {
     border: 1.5px solid #00143D;
     padding: 0.75rem;
     color: #FFFFFF;
@@ -281,7 +281,10 @@ footer h5 img {
 .discover {
     display: block;
     text-align: center;
+    padding: 10px;
 }
 .discover img {
     width: 70%;
 }
+/* hover effect */
+.picture:hover {box-shadow: 0 0 50px #333;}
