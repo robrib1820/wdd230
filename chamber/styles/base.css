@@ -278,3 +278,10 @@ footer h5 img {
         font-family: 'Nunito Sans', sans-serif;
     }
 }
+.discover {
+    display: block;
+    text-align: center;
+}
+.discover img {
+    width: 70%;
+}
