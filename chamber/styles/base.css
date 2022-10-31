@@ -282,9 +282,31 @@ footer h5 img {
     display: block;
     text-align: center;
     padding: 10px;
+    background-color:  #00143D;
+}
+.discover img:hover {
+    box-shadow: 0 0 10px #ffffff;
+
 }
 .discover img {
     width: 70%;
+    border-radius: .5em;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15),
+    0 2px 2px rgba(0, 0, 0, 0.15),
+    0 4px 4px rgba(0, 0, 0, 0.15),
+    0 8px 8px rgba(0, 0, 0, 0.15),
+    0 16px 16px rgba(0, 0, 0, 0.15),
+    0 32px 32px rgba(0, 0, 0, 0.15);
 }
-/* hover effect */
-.picture:hover {box-shadow: 0 0 50px #333;}
+.discover picture div {
+    margin-bottom: 100px;
+    background-color:  #e61c1c;
+}
+.space {
+    width: auto;
+    height: 3px;
+    background-color: #ffffff;
+}
+.discover img {
+    filter: saturate(180%);
+}
