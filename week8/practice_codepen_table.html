@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+main {
+	margin: 0;
+	border: 1px solid #bbb;
+	padding: 0.5rem;
+	width: 475px;
+	background-color: #abe;
+}
+
+form {
+	display: grid;
+	grid-gap: 0.25rem;
+	grid-template-columns: 1fr 1fr;
+	width: 425px;
+	align-items: center;
+}
+
+h1 {
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+label,
+input,
+textarea,
+select,
+button {
+	padding: 0.35rem;
+	font-size: 1.1rem;
+}
+
+label {
+	text-align: right;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+	background-color: #bed;
+}
+
+#message {
+	display: none;
+	text-align: center;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	background-color: #aa3333;
+	color: #fff;
+	padding: 0.5rem;
+}
+
+#message,
+button {
+	grid-column: 1/3;
+}
+
+#keyphrase:invalid {
+	background-color: lightcoral;
+	animation: shaketext 500ms;
+}
+
+input:valid + input::before {
+	content: "👍🏼";
+}
+
+@keyframes shaketext {
+	25% {
+		transform: translateX(3px);
+	}
+	50% {
+		transform: translateX(-3px);
+	}
+	75% {
+		transform: translateX(3px);
+	}
+}
+
+    </style>
+</head>
+<body>
+    <main>
+        <main>
+            <h1>📧 Send Us a Message</h1>
+            <form action="" method="get">
+                <div id="message"></div>
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname" required placeholder="Enter your first name" />
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname" required />
+                <label for="email">Email address:</label>
+                <input type="text" id="email" name="email" required />
+                <label for="phone">Phone number:</label>
+                <input type="phone" id="phone" name="phone" />
+                <label for="keyphrase">Key Phrase:</label>
+                <input type="text" id="keyphrase" name="keyphrase" pattern="[a-z]*" required /> <!-- {min,max} -->
+                <label for="keyphrase2">Re-enter Key Phrase:</label>
+                <input type="text" id="keyphrase2" name="keyphrase2" />
+        
+                <label for="comments">Message:</label>
+                <textarea id="comments" name="comments" required></textarea>
+                <button id="btnSubmit" type="submit">Send Message</button>
+                <input type="hidden" value="4">
+            </form>
+        </main>
+    </main>
+    <script>
+        const kp1 = document.querySelector("#keyphrase");
+        const kp2 = document.querySelector("#keyphrase2");
+        const message = document.querySelector("#message");
+
+        kp2.addEventListener("focusout", checkSame);
+
+        // This should be refactored.
+        function checkSame() {
+            if (kp1.value !== kp2.value) {
+                message.textContent = "Key Phrases DO NOT MATCH!";
+                message.style.display = "block";
+                kp2.style.backgroundColor = "#aa3333";
+                kp2.style.color = "#fff";
+                kp2.focus();
+                kp2.value = "";
+            } else {
+                message.style.display = "none";
+                kp2.style.backgroundColor = "#fff";
+                kp2.style.color = "#000";
+            }
+        }
+
+    </script>
+</body>
+</html>

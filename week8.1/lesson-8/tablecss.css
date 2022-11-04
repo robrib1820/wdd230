@@ -1,0 +1,29 @@
+table {
+	margin: 10px auto;
+	border: thin solid black;
+	box-shadow: 0 0 30px black;
+	border-collapse: collapse;
+}
+caption {
+    padding: 10px;
+    caption-side: bottom;
+    color: green;
+    font-size: .85rem;
+}
+
+th, td {
+	padding: 7px 15px;
+	border: 1px solid black;
+}
+th, #num {
+	background-color: green;
+    color: white;
+}
+
+#bold {
+    background-color: rgb(112, 214, 112);
+
+}
+.grey {
+    background-color: rgb(233, 232, 232);
+}
