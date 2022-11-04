@@ -1,5 +1,5 @@
 table {
-	margin: 10px auto;
+	margin: 100px auto;
 	border: thin solid black;
 	box-shadow: 0 0 30px black;
 	border-collapse: collapse;
@@ -26,4 +26,7 @@ th, #num {
 }
 .grey {
     background-color: rgb(233, 232, 232);
+}
+fieldset {
+    background-color: rgb(160, 171, 172);
 }
