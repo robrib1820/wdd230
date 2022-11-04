@@ -7,7 +7,7 @@ table {
 caption {
     padding: 10px;
     caption-side: bottom;
-    color: green;
+    color: rgb(10, 10, 10);
     font-size: .85rem;
 }
 
