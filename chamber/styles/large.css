@@ -32,6 +32,7 @@
         object-fit: cover;
         height: 100%;
         width: 100%;
+        border-radius: 10px;
     }
     .event {
         grid-column: 1 / 2 ;
@@ -61,11 +62,11 @@
         height: 250px;
     }
     .join{
-        border-radius: none;
+        border-radius: 10px;
         background-color:#00143D;
         padding-top: 30px;
-        border-radius: 1px;
         position: relative;
+        
     }
     .join h3 {
         background-color: #e61c1c;
@@ -75,6 +76,7 @@
         bottom: 60px;
         left: 100px;
         border-radius: 10px;
+        
     }
     .spotlight2 {
         display: block;
@@ -96,3 +98,30 @@
     #hamburgerBtn.open span:nth-child(2) {display: none;} 
     
 }
+
+/*-------------Forms LARGE---------------*/
+/* 64em is also 1028px (if basefont is 16px) */
+@media only screen and (min-width: 64rem) {
+
+
+/*----------- BODY --------------*/
+
+
+
+/*----------- HEADER --------------*/
+
+
+
+/*----------- NAVIGATION --------------*/
+
+
+
+/*----------- MAIN --------------*/
+
+form label.sbs {
+    padding: .4rem 0;
+}
+
+/*----------- FOOTER --------------*/
+    
+} /* end of media query */
