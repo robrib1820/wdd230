@@ -382,6 +382,18 @@ form input.submitBtn {
     width: 96%;
     max-width: 20rem;
 }
+.ftable {
+    display:block;
+}
+.table {
+    display: flex;
+}
+table {
+    margin-left: 100px;
+}
+.sbstable {
+    display: flex;
+}
 form label.top input:required {
     border-left: #e61c1c solid 6px;
 }

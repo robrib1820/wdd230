@@ -31,6 +31,8 @@
     <!-- enhance-tablet -->
     <link href="styles/medium.css" rel="stylesheet">
     <!-- enhance-desktop -->
+    <!--Stly for table -->
+    <link rel="stylesheet" href="styles/tablecss.css">
     <link href="styles/large.css" rel="stylesheet">
     <link rel="shortcut icon" href="images/favicon.ico">
 </head>
@@ -62,20 +64,60 @@
                 <label class="top">Business Name/Title*<input type="text" name="bname" required>
             </fieldset>
 
-            <fieldset>
+            <fieldset class="table">
                 <legend>Membership Level</legend>
-                <div>Choose one</div>
-                <label class="sbs"><input type="radio" name="audience" value="np"> NP Membership</label>
-                <label class="sbs"><input type="radio" name="audience" value="Bronze"> Bronze Membership - fee of $45 ( Benefits of trainings )</label>
-                <label class="sbs"><input type="radio" name="audience" value="Silver"> Silver Membership - fee of $120( Benefits of trainings, advertising )</label>
-                <label class="sbs"><input type="radio" name="audience" value="Gold"> Gold Membership - fee of $200( Benefits of trainings, advertising, event discounts )</label>
-
+                <!-- <div class="ftable">
+                    <label class="sbs"><input type="radio" name="audience" value="np"> NP Membership</label>
+                    <label class="sbs"><input type="radio" name="audience" value="Bronze"> Bronze Membership</label>
+                    <label class="sbs"><input type="radio" name="audience" value="Silver"> Silver Membership</label>
+                    <label class="sbs"><input type="radio" name="audience" value="Gold"> Gold Membership</label>
+                </div> -->
+                <div id="conteiner">
+                    <table>
+                        <tr>
+                            <th colspan="4">Membership Level
+                            </th>
+                        </tr>
+        
+                        <tr id="bold">
+                            <td><label class="sbs"><input type="radio" name="audience" value="np"> NP Membership</label></td>
+                            <td><label class="sbs"><input type="radio" name="audience" value="Bronze"> Bronze Membership</label></td>
+                            <td><label class="sbs"><input type="radio" name="audience" value="Silver"> Silver Membership</label></td>
+                            <td><label class="sbs"><input type="radio" name="audience" value="Gold"> Gold Membership</label></td>
+                        </tr>
+                        <tr>
+                            <td>No fee</td>
+                            <td>Fee of $15</td>
+                            <td>Fee of $70</td>
+                            <td>Fee of $100</td>
+                        </tr>
+                        <tr>
+                            <td>5% discount on events</td>
+                            <td>10% discount on events</td>
+                            <td>30% discount on events</td>
+                            <td>45% discount on events</td>
+                        </tr>
+                        <tr>
+                            <td class="tcolor">-</td>
+                            <td>Business training</td>
+                            <td>Advanced business training</td>
+                            <td>Advanced business training</td>
+                        </tr>
+                        <tr>
+                            <td class="tcolor">-</td>
+                            <td class="tcolor">-</td>
+                            <td>Exclusive local advertising</td>
+                            <td>Exclusive local advertising</td>
+                        </tr>
+                    </table>
+                </div>
             </fieldset>
 
             <fieldset>
                 <legend>Describe Business</legend>
                 <div>Briefly describe your Business</div>
                 <label class="top"> <textarea name="description" cols="45" rows="10"></textarea></label>
+                <label> <input type="hidden" name="currentDateAndTime" id="currentDateAndTime"></label>
             </fieldset>
             <input type="submit" value="Join the Chamber" class="submitBtn">
         </form>

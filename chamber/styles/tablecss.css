@@ -1,0 +1,23 @@
+table {
+	margin: 10px auto;
+	border: ridge solid white;
+	box-shadow: 0 0 15px white;
+	border-collapse: collapse;
+    width: 10% auto;
+    color: white;
+}
+th, td {
+	padding: 7px 15px;
+	border: 1px solid rgb(255, 255, 255)
+}
+th {
+	background-color: #e61c1c;
+    color: white;
+}
+div#conteiner {
+    overflow-x: auto;
+    width: 85%;
+}
+.tcolor {
+    background-color: #e61c1c;
+}
