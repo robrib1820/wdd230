@@ -1,0 +1,69 @@
+{
+    "cards": [
+      {
+        "name": "Almeida Mercados",
+        "addresses": "R. Araçatuba, 218 - Parque Alvorada",
+        "phone": "(43) 3328-6565",
+        "URL": "almeidamercados.com.br",
+        "membershipLevel": "Silver Membership",
+        "imageurl": "images/discovery/almeida.png"
+      },
+      {
+        "name": "Amafil",
+        "addresses": "Estrada para CianorteLote 294-A, Distrito de São Lourenço",
+        "phone": "(43) 4020-4123",
+        "URL": "amafil.com.br",
+        "membershipLevel": "Bronze Membership",
+        "imageurl": "images/discovery/amafil.png"
+      },{
+        "name": "Bratac",
+        "addresses": "Av. Brasília, 1075 - Rodocentro",
+        "phone": "(43) 3377-6000",
+        "URL": "bratac.com.br/bratac",
+        "membershipLevel": "Bronze Membership",
+        "imageurl": "images/discovery/bratac.png"
+      },{
+        "name": "Ayoshii",
+        "addresses": "Av. Madre Leônia Milito, 1800, Gleba Palhano",
+        "phone": "(43) 3328-6565",
+        "URL": "ayoshii.com.br",
+        "membershipLevel": "Gold Membership",
+        "imageurl": "images/discovery/ayoshii.png"
+      },{
+        "name": "Integrada",
+        "addresses": "R. São Jerônimo 200, Centro",
+        "phone": "(43) 3294-7000",
+        "URL": "integrada.coop.br",
+        "membershipLevel": "Silver Membership",
+        "imageurl": "images/discovery/integrada.png"
+      },{
+        "name": "Megumi",
+        "addresses": "R. Dr. Alberto Romi, 100",
+        "phone": "(43) 3328-0340",
+        "URL": "megumi.com.br",
+        "membershipLevel": "Silver Membership",
+        "imageurl": "images/discovery/megumi.png"
+      },{
+        "name": "RPC",
+        "addresses": "Av. Tiradentes 1370, Jardim Shangri-lá",
+        "phone": "(43) 3377-3400",
+        "URL": "negociosrpc.com.br",
+        "membershipLevel": "Gold Membership",
+        "imageurl": "images/discovery/rpc.png"
+      },{
+        "name": "Nissei Farmácias",
+        "addresses": "Av. Higienópolis, 1198 - Centro",
+        "phone": "(43) 4004-4041",
+        "URL": "farmaciasnissei.com.br",
+        "membershipLevel": "Gold Membership",
+        "imageurl": "images/discovery/nissei.png"
+      },{
+        "name": "Copel",
+        "addresses": "R. Chile, 10 - Vila Brasil",
+        "phone": "0800 510 0116",
+        "URL": "copel.com",
+        "membershipLevel": "Bronze Membership",
+        "imageurl": "images/discovery/copel.png"
+      }
+    ]
+}

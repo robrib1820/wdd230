@@ -1,5 +1,5 @@
-const requestFile = 'data.js';
-const cards = document.querySelector('.cards');
+const requestFile = './scripts/data.json';
+const carDs = document.querySelector('.cards');
 
 fetch(requestFile)
   .then(function (response) {
@@ -23,30 +23,28 @@ fetch(requestFile)
 
 
   
-    // Change the textContent property of the h2 element to contain the prophet's full name
-    name.textContent = `${card.name}`;
-
-    // Add Birth date and place
+    // Change the textContent property of the elements to contain the values
+    name.textContent = card.name;
     address.textContent = `Address: ${card.addresses}`;
     phoNe.textContent = `Phone: ${card.phone}`;
-    url.textContent = `URL: ${URLsite}`;
-    mebLevel.textContent = `Membership Level: ${membershipLevel}`;
+    url.textContent = `URL: ${card.URL}`;
+    mebLevel.textContent = `Membership Level: ${card.membershipLevel}`;
     
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
     portrait.setAttribute('src', card.imageurl);
     portrait.setAttribute('alt', `Portrait of ${card.name} company.`);
     portrait.setAttribute('loading', 'lazy');
   
-    // Add/append the section(card) with the h2 element
+    // Append the section(card) with the elements created
     cards.appendChild(name);
+    cards.appendChild(portrait);
     cards.appendChild(address);
     cards.appendChild(phoNe);
     cards.appendChild(url);
     cards.appendChild(mebLevel);
-    cards.appendChild(portrait);
     
     
   
-    // Add/append the existing HTML div with the cards class with the section(card)
+    // Append the cards
     document.querySelector('div.cards').appendChild(cards);
   }
