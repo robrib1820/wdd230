@@ -145,3 +145,8 @@ header img {
         font-family: 'Nunito Sans', sans-serif;
     }
 }
+#btn-mobile span:nth-child(1) {display: block;}
+#btn-mobile span:nth-child(2) {display: none;}
+
+#btn-mobile.active span:nth-child(1) {display: none;}
+#btn-mobile.active span:nth-child(2) {display: block;}
