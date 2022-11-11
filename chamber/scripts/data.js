@@ -25,10 +25,10 @@ fetch(requestFile)
   
     // Change the textContent property of the elements to contain the values
     name.textContent = card.name;
-    address.textContent = `Address: ${card.addresses}`;
-    phoNe.textContent = `Phone: ${card.phone}`;
-    url.textContent = `URL: ${card.URL}`;
-    mebLevel.textContent = `Membership Level: ${card.membershipLevel}`;
+    address.textContent = card.addresses;
+    phoNe.textContent = card.phone;
+    url.textContent = card.URL;
+    mebLevel.textContent = card.membershipLevel;
     
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
     portrait.setAttribute('src', card.imageurl);

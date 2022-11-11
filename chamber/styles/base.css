@@ -412,29 +412,43 @@ form label.top input:required:valid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     text-align: center;
-    border: 50px solid white;
+    border: 50px solid #00143D;
     box-shadow: 1px 1px 30px 5px #002776;
     gap: .2rem;
     margin: 0 auto;
     width: auto;
     background-color:#00143D;
-    color: white;
+    color: #002776;
     border-radius: 5px;
     font-family:'Nunito Sans', sans-serif;
 }
 .cards section {
     border: 2px solid #002776;
     border-radius: 5px;
-    background-color:#00143D;
+    background-color:white;
 }
 .cards img {
     width: 40%;
-    box-shadow: 1px 1px 10px 1px rgba(255, 253, 253, 0.616);
-    border-radius: 5px;
+    border-radius: .5em;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15),
+    0 2px 2px rgba(0, 0, 0, 0.15),
+    0 4px 4px rgba(0, 0, 0, 0.15),
+    0 8px 8px rgba(0, 0, 0, 0.15),
+    0 16px 16px rgba(0, 0, 0, 0.15),
+    0 32px 32px rgba(0, 0, 0, 0.15);
 }
 .cards img:hover {
     scale: 1.05;
 }
 .cards p {
     font-family:'Roboto', sans-serif;
+}
+.cards h2 {
+    font-size: 2.5em;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25),
+    0 2px 2px rgba(0, 0, 0, 0.25),
+    0 4px 4px rgba(0, 0, 0, 0.25),
+    0 8px 8px rgba(0, 0, 0, 0.25),
+    0 16px 16px rgba(0, 0, 0, 0.25),
+    0 32px 32px rgba(0, 0, 0, 0.25);
 }
