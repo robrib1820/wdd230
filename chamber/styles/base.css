@@ -293,6 +293,8 @@ footer h5 img {
 }
 .discover img:hover {
     box-shadow: 0 0 10px #ffffff;
+    scale: 1.05;
+    margin-bottom: 50px;
 
 }
 .discover img {
