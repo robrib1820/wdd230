@@ -218,29 +218,15 @@ header img {
 .news {
     padding: 35px;
 }
-
+.weatherSection section  {
+    text-align:center;
+    display: inline;
+}
+.weatherSection {
+    text-align: center;
+}
 .weather {
-    position: relative;
-}
-#data_weather {
-    position: absolute;
-    font-size: 35px;
-    top: 55px;
-}
-#cloudy {
-    position: absolute;
-    font-size: 20px;
-    font-weight: 600;
-    top: 100px;
-    left: 50%;
-}
-.wind_speed {
-    position: absolute;
-    top: 130px;
-}
-.wind_chill {
-    position: absolute;
-    bottom: 10px;
+    text-align: center;
 }
 footer h5 img {
     width: 3%;
@@ -251,6 +237,9 @@ footer h5 img {
     text-align: center;
     width: 100%;
     color: #00143D;
+}
+figcaption {
+    text-align: center;
 }
 
 
