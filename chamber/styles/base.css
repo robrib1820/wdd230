@@ -225,9 +225,6 @@ header img {
 .weatherSection {
     text-align: center;
 }
-.weather {
-    text-align: center;
-}
 footer h5 img {
     width: 3%;
 }
@@ -240,6 +237,12 @@ footer h5 img {
 }
 figcaption {
     text-align: center;
+}
+#apiSource:hover {
+    background-color: #FFFFFF;
+    color: #00143D;
+    border-radius: 25px;
+    padding: 10px;
 }
 
 
