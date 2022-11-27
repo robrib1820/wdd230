@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Directory</title>
+    <title>Contact Us</title>
+        <!-- STYLE SHEETS -->
+    <!--<link rel="stylesheet" href="large.css">
+    <link rel="stylesheet" href="medium.css">-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,11 +17,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Nunito+Sans:ital,wght@1,200&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <title>Home Page</title>
     <!-- STYLE SHEETS -->
     <link href="styles/normalize.css" rel="stylesheet">
     <!-- phone-default -->
-    <link href="styles/directory.css" rel="stylesheet">
+    <link href="styles/base.css" rel="stylesheet">
     <!-- enhance-tablet -->
+    <link href="styles/medium.css" rel="stylesheet">
+    <!-- enhance-desktop -->
+    <link href="styles/large.css" rel="stylesheet">
     <link rel="shortcut icon" href="images/favicon.ico">
 </head>
 <body>
@@ -27,32 +35,64 @@
         <nav id="nav">
             <button id="btn-mobile"><span>&#9776;</span><span>X</span></button>
             <ul id="menu">
-                <li> <a href="index.html" href="#">Home Page</a></li>
-                <li> <a href="discover.html" href="#">Discover</a></li>
-                <li> <a href="directory.html" href="#">Directory</a></li>
-                <li> <a href="join.html" href="#">Join</a></li>
                 <li> <a href="contact.html" href="#">Contact</a></li>
+                <li> <a href="join.html" href="#">Join</a></li>
+                <li> <a href="directory.html" href="#">Directory</a></li>
+                <li> <a href="discover.html" href="#">Discover</a></li>
+                <li> <a href="index.html" href="#">Home Page</a></li>
             </ul>
         </nav>
-
     </header>
-    <div class="directory_menu">
-        <input type="image" id="large_btn" alt="Large View" src="images/discovery/cards_icon.png" onclick="view('large')">
-        <input type="image" id="small_btn" alt="Small View" src="images/discovery/list_icon.png" onclick="view('small')">
-    </div>  
-    <div class="cards"></div>
-    <div class="lists" style="display: none;"></div>
+    <main class="forms">
+        <h1>Contact Us</h1>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <form method="get" action="thankyou1.html">
+                <fieldset>
+                    <legend>Applicant Information</legend>
+                    <label class="top">Full Name*<input type="text" name="fname" required></label>
+                    <label class="top">Email*<input type="email" name="email" placeholder="yourname@gmail.com" required></label>
+                    <label class="top">Phone*<Phone></Phone><input type="tel" name="phone" placeholder="1235551234" required></label>   
+                </fieldset>
+    
+                <fieldset>
+                    <legend>Message</legend>
+                    <div>Describe questions/considerations</div>
+                    <label class="top"> <textarea name="description" cols="45" rows="10"></textarea></label>
+                    <label> <input type="hidden" name="currentDateAndTime" id="currentDateAndTime"></label>
+                </fieldset>
+                <input type="submit" value="Contact" class="submitBtn">
+            </form>
+        </main>
     <footer>
         <div id="footer-flex">
             <img src="images/logo.webp" alt="Logo Page Photo">
             <h5> <span>&#11088;</span> Rua 10 de Dezembro, n° 341 - Gleba Fazenda Palhano - Londrina PR</h5>
             <h5>info@brazil-japan.org <br>+(55)43 2070-2300</h5>
+            <a id="apiSource" href="https://openweathermap.org/">OpenWeather Source</a>
         </div>
         <p>&copy; 2022 Brazil-Japan Chamber | Robson Ribeiro | WDD 230 Project |Last Modification 11/22/2021 06:20:28</p>
     </footer>
-    <script src="scripts/data.js"></script>
-    <script src="scripts/scripts.js"></script>
 </body>
 </html>

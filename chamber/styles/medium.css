@@ -52,9 +52,13 @@
     section {
         grid-column: 1 / 7 ;
         grid-row: 3 / 4 ;
+    }
+    section .spotlight {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        justify-content: center;
     }
+
     .join {
         display: block;
         grid-column: 1 / 7 ;
@@ -106,5 +110,8 @@
     .spotlight1 p {
         bottom: 5px;
         left: 2%;
+    }
+    section .spotlight hr {
+        display: none;
     }
 }

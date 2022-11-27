@@ -15,7 +15,7 @@ main img {
 .weather img {
     width: 40%;
 }
-.spotlight1 img {
+/*.spotlight1 img {
     object-fit: cover;
     width: 100%;
     height: 100%;
@@ -31,19 +31,19 @@ main img {
     width: 100%;
     height: 100%;
     border-radius: 10px;
-}
+}*/
 #come_to_know {
     font-weight: 500;
     font-size: 30px;
 }
-.spotlight, .spotlight1 {
+/*.spotlight, .spotlight1 {
     text-align: center;
     position: relative;
-}
+}*/
 
 /*Spotlights styles*/
 
-.spotlight p {
+/*.spotlight p {
     position: absolute;
     bottom: 0px;
     left: 18px;
@@ -66,7 +66,7 @@ main img {
     bottom: 5px;
     left: 35%;
     font-size: 18px;
-}
+}*/
 
 main p, h3 {
     text-align: center;
@@ -218,22 +218,36 @@ header img {
 .news {
     padding: 35px;
 }
-.weatherSection section  {
-    text-align:center;
-    display: inline;
+.weather {
+    position: relative;
 }
-.weatherSection {
-    text-align: center;
+.weather section {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 footer h5 img {
     width: 3%;
 }
 .spotlight div{
-    position: absolute;
-    top: 0;
     text-align: center;
-    width: 100%;
-    color: #00143D;
+    color: #FFFFFF;
+    text-align: center;
+}
+section .spotlight .div1 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    display: none;
+}
+.spotlight div img {
+    width: 30%;
+    text-align: center;
+    border-radius: 10px;
+}
+.spotlight div a {
+    text-decoration:underline;
+    color: #e61c1c;
 }
 figcaption {
     text-align: center;
@@ -446,3 +460,21 @@ form label.top input:required:valid {
     0 16px 16px rgba(0, 0, 0, 0.25),
     0 32px 32px rgba(0, 0, 0, 0.25);
 }
+
+
+/*Contact Page*/
+div.logo_contact{
+    min-height: 280px;
+    background-color: #00143D;
+    padding: 1px;
+    max-width: 1250px;
+    margin: auto;
+}
+div.logo_contact img {
+    width: 80%;
+}
+
+
+
+
+

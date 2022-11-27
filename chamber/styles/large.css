@@ -88,7 +88,18 @@
     .spotlight {
         grid-column: 1 / 4 ;
     }
-
+    section .spotlight {
+        display: block;
+    }
+    section .spotlight .div1 {
+        display: block;
+    }
+    .spotlight div img {
+        width: 40%;
+    }
+    section .spotlight hr {
+        display: block;
+    }
     /*Footer layout*/
     
     #hamburgerBtn span:nth-child(1) {display: none;}
