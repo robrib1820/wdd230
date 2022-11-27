@@ -114,4 +114,12 @@
     section .spotlight hr {
         display: none;
     }
+    #h1_contact {
+        position: absolute;
+        top: 25px;
+        left: 15px;
+        text-align: center;
+        font-size: 30px;
+        background-color: none;
+    }
 }
