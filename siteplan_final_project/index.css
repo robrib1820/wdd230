@@ -1,0 +1,52 @@
+ul {
+    list-style: none;
+}
+img {
+    width: 20%
+}
+#img {
+    background-color: #FFFFFF;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+main {
+    text-align: center;
+    background-color: #f49f0a ;
+}
+a, h1, h2, h3, h4 {
+    font-family: 'Righteous', cursive;
+    color: #1f1300;
+}
+a:hover {
+    color: #666600;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    color: #1f1300;
+}
+header {
+    min-height: 150px;
+    background-color: #f49f0a;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+}
+nav a {
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+#palette {
+    width: 80%;
+}
+#p_palette {
+    font-weight: bold;
+}
+
+.sections {
+    background-color: #FFFFFF;
+}
