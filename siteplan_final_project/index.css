@@ -50,3 +50,6 @@ nav a {
 .sections {
     background-color: #FFFFFF;
 }
+.sections img {
+    border-radius: 15px;
+}
