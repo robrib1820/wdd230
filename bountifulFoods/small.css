@@ -40,7 +40,6 @@ a:hover {
 #menu {
     display: flex;
     list-style: none;
-    gap: .5rem;
 }
 #menu a {
     padding: .5rem;
@@ -339,7 +338,7 @@ input {
 
     /*Small view*/
     body {
-        font-size:x-large;
+        font-size:large;
         margin: 0 auto;
     }
     #img {
@@ -395,6 +394,9 @@ input {
         display: block;
         justify-content: space-between;
     }
+    footer {
+        font-size: medium;
+    }
     #img1 img {
         width: 100%;
     }
@@ -411,4 +413,37 @@ input {
     #text, #make {
         font-size: medium;
     }
+
+    /*Footer Small*/
+    #topics {
+        display: block;
+        justify-content: center
+    }
+    #footer ul {
+        display: block;
+    }
+}
+
+/*About page*/
+
+#company_info img, #maps img {
+    width: 40%;
+    padding: 10px;
+    box-shadow: 1px 2px 10px 8px #0d2149;
+    margin: 10px;
+}
+#company_info {
+    color: #0d2149;
+    background-color: #F49F0A;
+    text-align: center;
+    padding: 5px;
+}
+#maps{
+    text-align: center;
+    background-color: #F49F0A;
+}
+#stories {
+    background-color: #F49F0A;
+    color: #0d2149;
+    text-align: center;
 }
