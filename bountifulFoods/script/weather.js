@@ -78,7 +78,7 @@
 // }
 
 //const url = "https://api.openweathermap.org/data/2.5/weather?q=Carlsbad&units=imperial&appid=436149f23f7acd351f99d168d82eda92";
-const url ="https://api.openweathermap.org/data/2.5/forecast?q=Carlsbad&appid=436149f23f7acd351f99d168d82eda92";
+const url ="https://api.openweathermap.org/data/2.5/forecast?q=Carlsbad&units=imperial&appid=436149f23f7acd351f99d168d82eda92";
 async function apiFetch() {
     try {
       const response = await fetch(url);
