@@ -266,7 +266,7 @@ input {
     color: #ffffff;
     background-color: #003e1f;
 }
-@media (max-width: 600px) {
+@media (min-width: 600px) {
     #weatherSection {
         display: block;
         padding-bottom: 10px;
@@ -276,6 +276,9 @@ input {
 @media (max-width: 1023px){
     header img {
         width: 60%;
+    }
+    #logo {
+        width: 30% ;
     }
     #menu {
         display: block;
