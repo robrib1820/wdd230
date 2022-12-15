@@ -1,14 +1,414 @@
 header img {
-    width: 40%;
+    width: 22%;
 }
-
+#logo {
+    margin-right: 10px;
+}
 body, ul {
-    margin: 0px;
+    margin:  auto;
     padding: 0px;
 }
 
 a {
-    color: black;
+    color: #F49F0A;
     text-decoration: none;
-    font-family: 'Righteous'
+    font-family: 'Righteous';
+}
+a:hover {
+    background-color: #663f00;
+}
+#header {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    padding: 1rem;
+    justify-content: space-between;
+    background-color: #003e1f;
+}
+#social {
+    display: flex;
+    justify-content: space-around;
+    gap: 1.5rem;
+}
+#icon1 {
+    margin-right: -30px;
+}
+#icon1, #icon2 {
+    width: 100px;
+}
+#menu {
+    display: flex;
+    list-style: none;
+    gap: .5rem;
+}
+#menu a {
+    padding: .5rem;
+}
+#btn-mobile {
+    display: none;
+}
+nav {
+    display: flex;
+    margin-right: 100px;
+}
+/*desktop view*/
+#conteiner {
+    background: url("../bountifulFoods/images/tree.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    padding: 10px;
+}
+#text {
+    font-size: large;
+    color: #f49e0a;
+    background-color: #003e1fbb;
+    text-align: center;
+    border-radius: 10px;
+}
+#make {
+    font-size: large;
+    color: #F49F0A;
+    padding: 10px;
+    background-color: #003e1fbb;
+    border-radius: 10px;
+    text-align: center;
+}
+#fruits {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #003e1f;
+    gap: .2rem;
+    padding: 20px;
+    list-style: none;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+#fruits li img {
+    width: 100%;
+}
+.fruit_options, .fruit_options1, .fruit_options2 {
+    padding: 10px;
+}
+#coastal {
+    background-color: #F49F0A;
+    color: #0d2149;
+    display: flex;
+    align-items: center;
+}
+#img1 img {
+    width: auto;
+    margin-left: 3rem;
+    padding: 10px;
+    box-shadow: 1px 2px 10px 8px #0d2149;
+    margin: 10px;
+}
+#text1 {
+    margin-left: 4rem ;
+    font-size: large;
+    width: 360px;
+}
+#text1 h1 {
+    border-top: 2px solid #ba2d0b;
+    border-bottom: 2px solid #ba2d0b;
+    padding: 1rem;
+}
+
+#drinks {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#drinks img {
+    width: 80%;
+    padding: 10px;
+    box-shadow: 1px 2px 10px 8px #0d2149;
+    margin: 10px;
+}
+#drinks h1 {
+    grid-column: 1 / 4;
+    text-align: center;
+    font-size: xx-large;
+    color: #F49F0A;
+    border-top: 2px solid #F49F0A;
+    border-bottom: 2px solid #F49F0A;
+    background-color: #003e1f;
+    padding: 10px;
+    border-radius: 10px;
+}
+#drinks ul li {
+    margin-left: 35px;
+    background-color: #F49F0A;
+    border-radius: 10px;
+    padding: 10px;  
+    width: 70%;  
+    margin-bottom: 5px;
+    color: #0d2149;
+    list-style: none ;
+}
+#drinks p {
+    margin-left: 15px;
+    color: #0d2149;
+    font-size: large;
+}
+#storage_drinks {
+    text-align: center;
+    color: #F49F0A;
+    font-size: large;
+    padding-bottom: 20px;
+    border: 2px solid #F49F0A;
+    background-color: #0d2149;
+}
+footer {
+    background-color: #003e1f;
+    color: #F49F0A;
+}
+#topics {
+    display: flex;
+    gap: 10rem;
+    margin: 1rem;
+    justify-content: center;
+}
+.list{
+    list-style: none;
+    text-align: center;
+}
+footer p {
+    text-align: center;
+}
+
+/*Fresh page - Forms*/
+.forms {
+    text-align: center;
+    color: #051330;
+    background: url("../bountifulFoods/images/natural.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    padding: 10px;
+}
+.forms h1 {
+    color:#F49F0A;
+    background-color: #003e1f;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px;
+}
+fieldset {
+    width: 80%;
+    margin: 0px auto;
+    padding: 40px;
+    
+}
+fieldset legend {
+    text-align: start;
+    margin-left: 100px;
+    font-size: x-large;
+    background-color: #0d2149;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    color: #ffffff;
+}
+.top {
+    font-size: larger;
+    padding: 20px;
+    background-color: #003e1f;
+    border-radius: 5px;
+    color: #ffffff;
+}
+input {
+    padding: 10px;
+}
+#subject {
+    padding: 20px;
+    margin: 20px;
+}
+.submitBtn {
+    display: block;
+    background-color: #0d2149;
+    padding: 10px;
+    border-radius: 10px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/*Weather home page*/
+#weather {
+    text-align: center;
+    background-color: #003e1f;
+    background: url("../bountifulFoods/images/carlsbad.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#weather h1 {
+    background-color: #F49F0A;
+    border: 1px solid #ba2d0b;
+    color: #0d2149;
+    padding: 10px;
+}
+#weatherSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+    color: #ffffff;
+    filter:opacity(70%);
+}
+#icons1, #icons2, #icons3 {
+    padding: 50px;
+    border-radius: 10px;
+    gap: 10px;
+    margin-bottom: 15px;
+    font-size: x-large;
+    color: #ffffff;
+    background-color: #003e1f;
+}
+
+
+@media(max-width: 600px) {
+    header img {
+        width: 60%;
+    }
+    #menu {
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 70px;
+        right: 0px;
+        background-color: #e7e7e7;
+        height: 0px;
+        visibility: hidden;
+        transition: .6s;
+        overflow-y: hidden;
+        z-index: 1000;
+    }
+    #icon1, #icon2 {
+        display: none;
+    }
+    nav {
+        margin-left: 100px;
+    }
+    #nav.active #menu {
+        height: calc(100vh - 70px);
+        visibility: visible;
+        overflow-y: auto ;
+    }
+    #menu a {
+        padding: 1rem 0;
+        margin: 0 1rem;
+        border-bottom: 2px solid rgba(241, 84, 40, 0.505);
+        display: block;
+    }
+    #btn-mobile {
+        display: flex;
+        padding: .5rem 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        gap: .5rem;
+    }
+    #hamburger {
+        width: 20px;
+        border-top: 2px solid;
+        display: block;
+    }
+    #hamburger::after, #hamburger::before {
+        content: "";
+        display: block;
+        width: 20px;
+        height: 2px;
+        background-color: currentColor;
+        margin-top: 5px;
+        transition: .3s;
+        position: relative;
+    }
+    #nav.active #hamburger {
+        border-top-color: transparent;
+    }
+    #nav.active #hamburger::before {
+        transform: rotate(135deg);
+    }
+    #nav.active #hamburger::after {
+        transform: rotate(-135deg);
+        top: -7px;
+    }
+
+
+    /*Small view*/
+    body {
+        font-size:x-large;
+        margin: 0 auto;
+    }
+    #img {
+        text-align: center;
+        margin: 0 auto;
+        position: relative;
+        filter: contrast(50%);
+        filter:brightness(40%) ;
+    }
+    #text {
+        position: absolute;
+        top: 100px;
+        left: 50px;
+        font-size:x-large;
+        text-align: center;
+        color: #f49f0a;
+    }
+    #make {
+        position: absolute;
+        top: 350px;
+        font-size:x-large;
+        left: 150px;
+        text-align: center;
+        color: #f49f0a;
+    }
+    #make h1 {
+        padding: 15px;
+        background-color: #ba2d0b;
+        border-radius: 5px;
+        margin-top: 15px;
+        margin-bottom: 0px;
+        filter: brightness();
+    }
+    #make p {
+        margin-top: 5px;
+    }
+    #text1 {
+        text-align: center;
+        font-size: large;
+    }
+    .coastal {
+        font-size: medium;
+    }
+    /*Small view footer*/
+    footer ul {
+        display: flex;
+        list-style: none;
+        gap: .5rem;
+        justify-content: space-between;
+        padding: .5rem;
+    }
+    footer #list {
+        display: block;
+        justify-content: space-between;
+    }
+    #img1 img {
+        width: 100%;
+    }
+    #drinks img {
+        width: 50%;
+        border-radius: 180px;
+    }
+    .ingredients, #drinks h1 {
+        text-align: center;
+    }
+    #drinks ul li {
+        list-style: inside;
+    }
+    #text, #make {
+        font-size: medium;
+    }
 }

@@ -11,6 +11,98 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Righteous&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header id="header">
+        <img id="logo" src="images/Bountiful Foods-1.png" alt="Logo Photo">
+        <div id="social">
+            <nav id="nav">
+                <button id="btn-mobile">Menu <span id="hamburger"></span></button>
+                <ul id="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="fresh.html">Fresh</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </nav>
+            <div id="icon1"><img src="images/icons8-twitter-48.png" alt="Twitter Photo"></div>
+            <div id="icon2"><img src="images/icons8-instagram-48.png" alt="Instagram Photo"></div>
+            <div id="icon2"><img src="images/youtube.png" alt="Youtube Photo"></div>
+        </div>
+    </header>
+
+    <main class="forms">
+        <h1>Make your special drink</h1>
+            <form>
+                <fieldset>
+                    <legend>Can I take your order?</legend>
+                    <label class="top">First Name*<input type="text" name="fname" required></label>
+                    <label class="top">Email*<input type="email" name="email" placeholder="yourname@gmail.com" required></label>
+                    <label class="top">Phone*<Phone></Phone><input type="tel" name="phone" placeholder="1235551234" required></label>   
+                </fieldset>
+                <fieldset>
+                    <legend>Options of drink</legend>
+                    <select name="subject1" class="fruit_options">
+                        <option value="">Please Select</option>
+                    </select>
+                    <select name="subject2" class="fruit_options1">
+                        <option value="">Please Select</option>
+                    </select>
+                    <select name="subject3" class="fruit_options2">
+                        <option value="">Please Select</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Special instructions</legend>
+                    <div>Add notes if needed</div>
+                    <label class="top1"> <textarea name="description" cols="45" rows="10"></textarea></label>
+                    <label> <input type="hidden" name="currentDateAndTime" id="currentDateAndTime"></label>
+                    <input type="submit" value="Order Drink" class="submitBtn">
+                </fieldset>
+                <div id="nut">
+                    <div id="name"></div>
+                    <div id="email"></div>
+                    <div id="phone"></div>
+                    <div id="fruit1"></div>
+                    <div id="fruit2"></div>
+                    <div id="fruit3"></div>
+                    <div id="notes"></div>
+                </div>
+            </form>
+    </main>
     
+    <footer>
+        <ul id="topics">
+            <div>
+                <h1>Carlsbad</h1>
+                <ul class="list">
+                    <li>Chamber of Commerce</li>
+                </ul>
+            </div>
+            <div>
+                <h1>Templates</h1>
+                <ul class="list">
+                    <li>Wireframes</li>
+                    <li>Site Plan</li>
+                </ul>
+            </div>
+            <div>
+                <h1>Resources</h1>
+                <ul class="list">
+                    <li>Weather API</li>
+                    <li>Google Maps</li>
+                </ul>
+            </div>
+            <div>
+                <ul class="list">
+                    <h1>Blog</h1>
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+        </ul>
+        <p>&copy; Bountiful Foods | Robson Ribeiro | WDD 230 Final Project |Last Modification 11/22/2021 06:20:28</p>
+    </footer>
+    <script src="script/script.js"></script>
+    <script src="script/fruit.js"></script>
+    <script src="script/last_date.js"></script>
 </body>
+
 </html>

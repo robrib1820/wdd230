@@ -12,14 +12,160 @@
 </head>
 <body>
     <header id="header">
-        <a id="logo" href=""><img src="images/Fresh Juice-1.png" alt="Logo Photo"></a>
-        <nav id="nav">
-            <ul id="menu">
-                <li> <a href="index.html"></a>Home</li>
-                <li> <a href="fresh.html"></a>Fresh</li>
-                <li> <a href="about.html"></a>About Us</li>
-            </ul>
-        </nav>
+        <img id="logo" src="images/Bountiful Foods-1.png" alt="Logo Photo">
+        <div id="social">
+            <nav id="nav">
+                <button id="btn-mobile">Menu <span id="hamburger"></span></button>
+                <ul id="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="fresh.html">Fresh</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </nav>
+            <div id="icon1"><img src="images/icons8-twitter-48.png" alt="Twitter Photo"></div>
+            <div id="icon2"><img src="images/icons8-instagram-48.png" alt="Instagram Photo"></div>
+            <div id="icon2"><img src="images/youtube.png" alt="Youtube Photo"></div>
+        </div>
     </header>
+
+    <main>
+        <div id="conteiner">
+            <div id="img">
+                
+            </div>
+            <div id="text">
+                <h1>Taste the wonders of Bountiful Foods </h1>
+                <p>We bring you the healthiest thing on this earth!</p>
+            </div>
+            <div id="make">
+                <h1><a href="fresh.html">Make your Juice</a></h1>
+                <P>It's fast and delicious</P>
+            </div>
+            <ul id="fruits">
+                <li><img src="images/apple.jpg" alt="Fruit"></li>
+                <li><img src="images/strawberries.jpg" alt="Fruit"></li>
+                <li><img src="images/grapes.jpg" alt="Fruit"></li>
+                <li><img src="images/raspberries.jpg" alt="Fruit"></li>
+                <li><img src="images/blueberries.jpg" alt="Fruit"></li>
+                <li><img src="images/passion_fruit.jpg" alt="Fruit"></li>
+            </ul>
+        </div>
+
+        <section id="coastal">
+            <div id="img1">
+                <img src="images/carlsbad_coastal.jpg" alt="Carlsbad Area">
+            </div>
+            <div id="text1">
+                <h1>San Diego, Califórnia</h1>
+                <p class="coastal">San Diego is a mind-blowing city, with 70 miles of beaches, friendly locals and great weather,
+                    California's second-largest city is the perfect blend of urban sophistication and laid-back beach culture.</p>  
+                <p class="coastal">The San Diego spirit is all about fun, creativity and a carefree attitude. If you're looking
+                    for a true California beach town, you've found it. San Diego offers sun, unforgettable scenery in its beaches,
+                    parks, deserts and off course it is perfect to taste the Boutiful Foods!</p>   
+            </div>       
+        </section>
+
+        <section id="weather">
+            <h1>Carlsbad Weather</h1>
+            <div id="weatherSection">
+                <div id="icons1">
+                    <p id="temperature"></p>
+                    <p id="condition"></p>
+                    <p id="humidity"></p>
+                    <P id="day"></P>
+                </div>
+                
+                <div id="icons2">
+                    <p id="temperature1"></p>
+                    <p id="condition1"></p>
+                    <p id="humidity1"></p>
+                    <p id="day1"></p>
+                </div>
+
+                <div id="icons3">
+                    <p id="temperature2"></p>
+                    <p id="condition2"></p>
+                    <p id="humidity2"></p>
+                    <p id="day2"></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="drinks">
+            <h1>Discover our drinks</h1>
+            <div class="ingredients">
+                <img src="images/orangeJuice.jpg" alt="Drink Photo">
+                <p>Orange juice with selected and natural fruits.</p>
+                <ul>
+                    <li>600ml of orange Juice</li>
+                    <li>100g of sugar</li>
+                    <li>One liter of water</li>
+                    <li>Chilled water to taste</li>
+                </ul>
+            </div>
+
+            <div class="ingredients">
+                <img src="images/lemonJuice.jpg" alt="Drink Photo">
+                <p>Lemon juice with selected and natural fruits.</p>
+                <ul>
+                    <li>160ml of Lemon Juice</li>
+                    <li>One liter of water</li>
+                    <li>350g of sugar</li>
+                </ul>
+            </div>
+
+            <div class="ingredients">
+                <img src="images/strawberryJuice.jpg" alt="Drink Photo">
+                <p>Strawberry juice with selected and natural fruits.</p>
+                <ul>
+                    <li>300ml of Strawberry </li>
+                    <li>500ml of water</li>
+                    <li>48g of sugar</li>
+                    <li>Chilled water to taste</li>
+                </ul>
+            </div>
+        </section>
+        <div id="storage_drinks">
+            <h3><span class="label">Number of Drinks ordered</h3>
+            </span><span class="ordered"></span>
+        </div>
+    </main>
+
+    <footer>
+        <ul id="topics">
+            <div>
+                <h1>Carlsbad</h1>
+                <ul class="list">
+                    <li>Chamber of Commerce</li>
+                </ul>
+            </div>
+            <div>
+                <h1>Templates</h1>
+                <ul class="list">
+                    <li>Wireframes</li>
+                    <li>Site Plan</li>
+                </ul>
+            </div>
+            <div>
+                <h1>Resources</h1>
+                <ul class="list">
+                    <li>Weather API</li>
+                    <li>Google Maps</li>
+                </ul>
+            </div>
+            <div>
+                <ul class="list">
+                    <h1>Blog</h1>
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+        </ul>
+        <p>&copy;<span id="year"></span> Bountiful Foods | Robson Ribeiro | WDD 230 Final Project |Last Modification: <span id="lastModified"></span> </p>
+    </footer>
+    <script src="script/script.js"></script>
+    <script src="script/last_date.js"></script>
+    <script src="script/weather.js"></script>
+    <script src="script/fruit.js"></script>
 </body>
 </html>
