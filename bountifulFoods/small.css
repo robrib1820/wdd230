@@ -15,7 +15,9 @@ a {
     font-family: 'Righteous';
 }
 a:hover {
-    background-color: #663f00;
+    background-color: #F49F0A;
+    color: #0d2149;
+    border-radius: 3px;
 }
 #header {
     box-sizing: border-box;
@@ -252,18 +254,23 @@ input {
 #weatherSection {
     display: flex;
     justify-content: space-around;
-    margin: 15px;
+    margin: 20px;
     color: #ffffff;
     filter:opacity(70%);
 }
 #icons1, #icons2, #icons3 {
-    padding: 50px;
+    padding: 20px;
     border-radius: 10px;
-    gap: 10px;
     margin-bottom: 15px;
     font-size: x-large;
     color: #ffffff;
     background-color: #003e1f;
+}
+@media (max-width: 600px) {
+    #weatherSection {
+        display: block;
+        padding-bottom: 10px;
+    }
 }
 
 @media (max-width: 1023px){
@@ -274,9 +281,9 @@ input {
         display: block;
         position: absolute;
         width: 100%;
-        top: 70px;
+        top: 100px;
         right: 0px;
-        background-color: #e7e7e7;
+        background-color: #0d2149;
         height: 0px;
         visibility: hidden;
         transition: .6s;
@@ -406,8 +413,8 @@ input {
         width: 100%;
     }
     #drinks img {
-        width: 50%;
-        border-radius: 180px;
+        width: 80%;
+        border-radius: 5px;
     }
     .ingredients, #drinks h1 {
         text-align: center;
@@ -420,9 +427,8 @@ input {
     }
 
     /*Footer Small*/
-    #topics {
+    #topics, .list {
         display: block;
-        justify-content: center
     }
     #footer ul {
         display: block;
@@ -431,6 +437,9 @@ input {
         display: block;
         margin: 15px;
         background-color: #003e1f;
+    }
+    #topics h1 {
+        text-align: center;
     }
 }
 
