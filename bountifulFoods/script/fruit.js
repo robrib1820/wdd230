@@ -9,14 +9,6 @@ fetch(requestFile)
     console.table(jsonObject);  // temporary checking for valid response and data parsing
     const fruits = jsonObject['fruits'];
     fruits.forEach(displayInputs);
-
-    // for ( const fruit of Object.keys(fruits)) {
-    //     //console.log(fruit);
-    //     console.log(fruits[fruit].nutritions);
-    // }
-    console.log(fruits.fruits[0].nutritions);
-
-
   });
 
 function displayInputs(input) {
@@ -42,6 +34,7 @@ function displayInputs(input) {
     const notes = document.getElementById("notes");
 
 
+
     const element = document.forms[0];
 
     element.addEventListener("submit", function(form) {
@@ -56,7 +49,6 @@ function displayInputs(input) {
     notes.innerHTML = "Special Instructions: " + element.description.value;
 
     //document.querySelector("#nut").appendChild(nutritions1);
-
 })
 
 }

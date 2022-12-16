@@ -252,7 +252,7 @@ input {
     padding: 10px;
 }
 #weatherSection {
-    display: flex;
+    display: block;
     justify-content: space-around;
     margin: 20px;
     color: #ffffff;
@@ -268,7 +268,7 @@ input {
 }
 @media (min-width: 600px) {
     #weatherSection {
-        display: block;
+        display: flex;
         padding-bottom: 10px;
     }
 }
